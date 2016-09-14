@@ -248,12 +248,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 834E424F1C7FFC71007F856E /* Build configuration list for PBXNativeTarget "RevealingSplashView" */;
 			buildPhases = (
+				FB227FFEF7BE5F4DB98BBF71 /* 📦 Check Pods Manifest.lock */,
 				A565C1A7AD8702C8C08DF362 /* [CP] Check Pods Manifest.lock */,
 				834E42361C7FFC71007F856E /* Sources */,
 				834E42371C7FFC71007F856E /* Frameworks */,
 				834E42381C7FFC71007F856E /* Headers */,
 				834E42391C7FFC71007F856E /* Resources */,
 				DFBA5F3A8E92A6E50D922EFD /* [CP] Copy Pods Resources */,
+				735CC9D8622D7F76995F243E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,12 +270,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 834E42521C7FFC71007F856E /* Build configuration list for PBXNativeTarget "RevealingSplashViewTests" */;
 			buildPhases = (
+				C8F403C0CB60245433453D97 /* 📦 Check Pods Manifest.lock */,
 				2D4F101590CCC041E00F0FA8 /* [CP] Check Pods Manifest.lock */,
 				834E42411C7FFC71007F856E /* Sources */,
 				834E42421C7FFC71007F856E /* Frameworks */,
 				834E42431C7FFC71007F856E /* Resources */,
 				9EB7B3B63027105C42C59ED9 /* [CP] Embed Pods Frameworks */,
 				5F3D123E8463477BB7F3D912 /* [CP] Copy Pods Resources */,
+				3D142D0E77BAAEA820F5BDFF /* 📦 Embed Pods Frameworks */,
+				1849BA22AD30E8D8AE9C2ED4 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,12 +294,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 834E42731C7FFCB1007F856E /* Build configuration list for PBXNativeTarget "RevealingSplashViewSample" */;
 			buildPhases = (
+				CC69B9D2C48D7C8F31209022 /* 📦 Check Pods Manifest.lock */,
 				BB79B672FB22F1AB9DD6A983 /* [CP] Check Pods Manifest.lock */,
 				834E42551C7FFCB1007F856E /* Sources */,
 				834E42561C7FFCB1007F856E /* Frameworks */,
 				834E42571C7FFCB1007F856E /* Resources */,
 				5A6E0C0AFA2796F0AAB725A5 /* [CP] Embed Pods Frameworks */,
 				837AA1E8B44BA0293AE156FE /* [CP] Copy Pods Resources */,
+				C4B66EBA39A6F869DF151822 /* 📦 Embed Pods Frameworks */,
+				2EF0AA7E7A9A587F65E88B5F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -309,12 +317,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 834E42761C7FFCB1007F856E /* Build configuration list for PBXNativeTarget "RevealingSplashViewSampleTests" */;
 			buildPhases = (
+				8953D5C7A35DF632CCCC60B7 /* 📦 Check Pods Manifest.lock */,
 				129FF540D947020C7A455253 /* [CP] Check Pods Manifest.lock */,
 				834E42681C7FFCB1007F856E /* Sources */,
 				834E42691C7FFCB1007F856E /* Frameworks */,
 				834E426A1C7FFCB1007F856E /* Resources */,
 				B5DA0A0E4A60E9F32B05DB70 /* [CP] Embed Pods Frameworks */,
 				7BACBF20D174C8FE709ACCB9 /* [CP] Copy Pods Resources */,
+				5C7AC9633D9C674E424110C9 /* 📦 Embed Pods Frameworks */,
+				5F9629EA0DA6CB87CD1C5AE6 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -338,15 +349,19 @@
 				TargetAttributes = {
 					834E423A1C7FFC71007F856E = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 					};
 					834E42441C7FFC71007F856E = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 					};
 					834E42581C7FFCB1007F856E = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 					};
 					834E426B1C7FFCB1007F856E = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 834E42581C7FFCB1007F856E;
 					};
 				};
@@ -423,6 +438,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		1849BA22AD30E8D8AE9C2ED4 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RevealingSplashViewTests/Pods-RevealingSplashViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D4F101590CCC041E00F0FA8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -436,6 +466,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2EF0AA7E7A9A587F65E88B5F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RevealingSplashViewSample/Pods-RevealingSplashViewSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D142D0E77BAAEA820F5BDFF /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RevealingSplashViewTests/Pods-RevealingSplashViewTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5A6E0C0AFA2796F0AAB725A5 /* [CP] Embed Pods Frameworks */ = {
@@ -453,6 +513,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RevealingSplashViewSample/Pods-RevealingSplashViewSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5C7AC9633D9C674E424110C9 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RevealingSplashViewSampleTests/Pods-RevealingSplashViewSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5F3D123E8463477BB7F3D912 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -466,6 +541,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RevealingSplashViewTests/Pods-RevealingSplashViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F9629EA0DA6CB87CD1C5AE6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RevealingSplashViewSampleTests/Pods-RevealingSplashViewSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		735CC9D8622D7F76995F243E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RevealingSplashView/Pods-RevealingSplashView-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7BACBF20D174C8FE709ACCB9 /* [CP] Copy Pods Resources */ = {
@@ -496,6 +601,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RevealingSplashViewSample/Pods-RevealingSplashViewSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8953D5C7A35DF632CCCC60B7 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		9EB7B3B63027105C42C59ED9 /* [CP] Embed Pods Frameworks */ = {
@@ -558,6 +678,51 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		C4B66EBA39A6F869DF151822 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RevealingSplashViewSample/Pods-RevealingSplashViewSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8F403C0CB60245433453D97 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC69B9D2C48D7C8F31209022 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		DFBA5F3A8E92A6E50D922EFD /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -571,6 +736,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RevealingSplashView/Pods-RevealingSplashView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB227FFEF7BE5F4DB98BBF71 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -756,6 +936,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -774,6 +955,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.RevealingSplashView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -785,6 +967,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.RevealingSplashViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -796,6 +979,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.RevealingSplashViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -808,6 +992,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.RevealingSplashViewSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -820,6 +1005,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.RevealingSplashViewSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -832,6 +1018,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.RevealingSplashViewSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevealingSplashViewSample.app/RevealingSplashViewSample";
 			};
 			name = Debug;
@@ -845,6 +1032,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.RevealingSplashViewSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevealingSplashViewSample.app/RevealingSplashViewSample";
 			};
 			name = Release;
